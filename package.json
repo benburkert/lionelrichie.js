@@ -1,0 +1,7 @@
+{
+  "name": "lionelrichie",
+  "version": "0.0.1",
+  "dependencies": {
+    "twitter": "v0.1.17"
+  }
+}
