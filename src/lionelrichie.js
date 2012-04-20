@@ -16,7 +16,7 @@ var connect = function(twit) {
     stream.on('data', function(data) {
       if(data.text) {
 
-        if(data.text.match(/all night long/i)) {
+        if(data.text.match(/all night long!*$/i)) {
 
           var screen_name = data.user.screen_name;
 
